@@ -17,7 +17,7 @@ if(empty($name) || empty($age) || empty($email)) {
         echo "<font color='red'>Usia Kosong.</font><br/>";
     }
     if(empty($email)) {
-        echo "<font color='red'>Email Kosong.</font><br/>";
+        echo "<font color='red'>Email Kosong gan.</font><br/>";
     }
 }else{
     $result = mysqli_query($mysqli, "UPDATE user SET name='$name',age='$age',email='$email' WHERE id=$id");
