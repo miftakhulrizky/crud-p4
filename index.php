@@ -27,7 +27,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM user ORDER BY id DESC");
             <th style='text-align: center;'>Nama</th>
             <th style='text-align: center;'>Umur</th>
             <th style='text-align: center;'>Email</th>
-            <th style='text-align: center;'>Perbarui</th>
+            <th style='text-align: center;'>Perbarui hai</th>
           </tr>
         </thead>
       </table>
