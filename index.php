@@ -10,7 +10,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM user ORDER BY id DESC");
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Homepage</title>
+    <title>Homepages</title>
     <link rel="stylesheet" href="index.css">
     <link rel="icon" href="logo.png">
     <meta http-equiv="refresh" content="5">
